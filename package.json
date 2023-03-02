@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-slick": "^0.29.0",
+    "reactstrap": "^9.1.6",
+    "remixicon": "^2.5.0",
+    "slick-carousel": "^1.8.1"
+  }
+}
