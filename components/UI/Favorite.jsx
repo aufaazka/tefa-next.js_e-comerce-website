@@ -7,11 +7,11 @@ import FavoriteItem from "./FavoriteItem";
 import favoriteData from "../data/favorite";
 
 const Favorite = () => {
-  const [filter, setFilter] = useState("Mobile App");
+  const [filter, setFilter] = useState("New Product");
   const [data, setData] = useState();
 
   useEffect(() => {
-    if (filter === "Mobile App") {
+    if (filter === "New Product") {
       const filteredData = favoriteData.filter(
         (item) => item.category === filter
       );
@@ -19,7 +19,7 @@ const Favorite = () => {
       setData(filteredData);
     }
 
-    if (filter === "Web Design") {
+    if (filter === "Limited Edition") {
       const filteredData = favoriteData.filter(
         (item) => item.category === filter
       );
@@ -43,19 +43,19 @@ const Favorite = () => {
             <div className={`${classes.tab__btns} text-end`}>
               <button
                 className={` ${
-                  filter === "Mobile App" ? active : ""
+                  filter === "New Product" ? active : ""
                 } secondary__btn text-black`}
-                onClick={() => setFilter("Mobile App")}
+                onClick={() => setFilter("New Product")}
               >
-                Mobile App
+                New Product
               </button>
               <button
                 className={`${
-                  filter === "Web Design" ? active : ""
+                  filter === "Limited Edition" ? active : ""
                 } secondary__btn text-black`}
-                onClick={() => setFilter("Web Design")}
+                onClick={() => setFilter("Limited Edition")}
               >
-                Web Design
+                Limited Edition
               </button>
             </div>
           </Col>

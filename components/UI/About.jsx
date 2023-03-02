@@ -4,10 +4,10 @@ import Link from "next/link";
 import SectionSubtitle from "./SectionSubtitle";
 import Image from "next/image";
 
-import img01 from "../../public/images/About4.jpg";
-import img02 from "../../public/images/About3.jpg";
-import img03 from "../../public/images/About1.png";
-import img04 from "../../public/images/About.jpg";
+import img01 from "../../public/images/aboutIphone1.png";
+import img02 from "../../public/images/about2.jpg";
+import img03 from "../../public/images/about2.jpg";
+import img04 from "../../public/images/about2.jpg";
 import classes from "../../styles/about.module.css";
 
 const About = () => {
@@ -50,9 +50,8 @@ const About = () => {
           </Col>
 
           <Col lg="6" className={`${classes.about__content}`}>
-            <SectionSubtitle subtitle="About me" />
-            <h3 className="mt-4">I&apos;m here</h3>
-            <h3 className="mb-4">Moh. Aufa Azka Fabian</h3>
+            <SectionSubtitle subtitle="About Us" />
+            <h3 className="mb-4">Welcome to iStore</h3>
             <p>
             We also complete the iPhone experience. We have a team that is experienced in providing the best solutions and after-sales service to ensure customer satisfaction.
             </p>
@@ -93,11 +92,7 @@ const About = () => {
 
             <div className="mt-5">
               <button className="primary__btn">
-                <Link href="#portfolio">My Portfolio</Link>
-              </button>
-
-              <button className="secondary__btn">
-                <Link href="https://drive.google.com/file/d/18T0M80GQyUthsI5KfFPfh5OJK0L39_Mo/view?usp=share_link">Download CV</Link>
+                <Link href="#favorite">Our Product</Link>
               </button>
             </div>
           </Col>

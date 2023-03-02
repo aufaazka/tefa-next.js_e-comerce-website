@@ -26,7 +26,7 @@ const Footer = () => {
           <Col lg="12">
             <div className={`${classes.footer__copyright}`}>
               <p>
-                &copy; Copyright {year} - Website Portfolio Aufa.{" "}
+                &copy; Copyright {year} - iStore Website.{" "}
               </p>
             </div>
           </Col>

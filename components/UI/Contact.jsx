@@ -11,11 +11,10 @@ const Contact = () => {
       <Container>
         <Row>
           <Col lg="6" md="6">
-            <SectionSubtitle subtitle="Contact me" />
-            <h3 className="mt-4 mb-4">Contact with me</h3>
+            <SectionSubtitle subtitle="Contact Us" />
+            <h3 className="mt-4 mb-4">Contact with Admin</h3>
             <p>
-              Terimakasih banyak sudah mengunjungi website yang saya miliki 
-              Apabila ada saran bisa kamu cantumkan pada form ini
+            Visit our store and enjoy a fun and easy shopping experience to get the best Apple products. Thank you for choosing iPhone Store as your choice to meet your technology needs.
             </p>
 
             <ul className={`${classes.contact__info__list}`}>

@@ -3,8 +3,8 @@ const favorite = [
     id: "01",
     title: "Iphone 14",
     img: "/images/Iphone14.png",
-    category: "Mobile App",
-    keyword: ["Mobile", "UI-UX"],
+    category: "New Product",
+    keyword: ["1 TB", "500 GB", "256 GB"],
     prodUrl:"#",
     description:"Ini merupakan aplikasi yang dapat memuAHKAN MOBILITAS anda dalam restoran tentunya mendukung sepenuhnya untuk anda",
    
@@ -14,8 +14,8 @@ const favorite = [
     id: "02",
     title: "iPhone 13",
     img: "/images/iphone13.png",
-    category: "Mobile App",
-    keyword: ["Mobile", "UI-UX"],
+    category: "New Product",
+    keyword: ["500 GB", "256 GB", "128 GB"],
     prodUrl:"#",
     description:"",
    
@@ -25,8 +25,8 @@ const favorite = [
     id: "03",
     title: "iPhone 12",
     img: "/images/Iphone12.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "UI-UX","Tefa"],
+    category: "New Product",
+    keyword: ["256 GB", "128 GB", "64 GB"],
     prodUrl:"#",
     description:"",
    
@@ -36,8 +36,19 @@ const favorite = [
     id: "04",
     title: "iPhone 11",
     img: "/images/Iphone11.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "UI-UX"],
+    category: "New Product",
+    keyword: ["128 GB", "64 GB"],
+    prodUrl:"#",
+    description:"",
+   
+  },
+
+  {
+    id: "05",
+    title: "iPhone XR",
+    img: "/images/IphoneXr.jpg",
+    category: "Limited Edition",
+    keyword: ["128 GB", "64 GB"],
     prodUrl:"#",
     description:"",
    
@@ -45,36 +56,46 @@ const favorite = [
 
   {
     id: "06",
-    title: "Perpustakaan Jaya Website",
-    img: "/images/perpus.jpg",
-    category: "Web Design",
-    keyword: ["Web", "Web design", "UI-UX"],
+    title: "iPhone XS",
+    img: "/images/IphoneXs.jpg",
+    category: "Limited Edition",
+    keyword: ["128 GB", "64 GB"],
     prodUrl:"#",
     description:"",
    
   },
 
   {
-    id: "08",
-    title: "Group Introduction Website",
-    img: "/images/tefa4.jpg",
-    category: "Web Design",
-    keyword: ["Web", "Web design", "UI-UX"],
-    prodUrl:"#",
-    description:"",
-   
-  },
-
-  {
-    id: "09",
-    title: "Furniture Website",
-    img: "/images/fourtykweb.jpg",
-    category: "Web Design",
-    keyword: ["Web", "Web design", "UI-UX"],
+    id: "07",
+    title: "iPhone 9",
+    img: "/images/iPhone9.jpg",
+    category: "Limited Edition",
+    keyword: ["128 GB", "64 GB"],
     prodUrl:"#",
     description:"",
     
   },
+
+  {
+    id: "08",
+    title: "iPhone 8",
+    img: "/images/iPhone8.jpg",
+    category: "Limited Edition",
+    keyword: ["64 GB"],
+    prodUrl:"#",
+    description:"",
+    
+  },
+  {
+    id: "09",
+    title: "iPhone-7",
+    img: "/images/iPhone8.jpg",
+    category: "Limited Edition",
+    keyword: ["64 GB"],
+    prodUrl:"#",
+    description:"",
+    
+  }
 ];
 
 export default favorite;

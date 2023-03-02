@@ -20,10 +20,6 @@ const FavoriteItem = (props) => {
       <div className={`${classes.favorite__img}`}>
         <Image alt="favorite-img" src={img} width="280" height="280" />
       </div>
-
-      <div className="desc bg-transparent">
-         <h7>{description}</h7>
-      </div>
      
       <div className= {`${classes.favorite__live_url} bg-transparent`}>
         <button className="primary__btn_url">
