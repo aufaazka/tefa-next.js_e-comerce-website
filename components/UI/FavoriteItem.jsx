@@ -2,10 +2,10 @@ import React from "react";
 import classes from "../../styles/favorite-item.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import favorite from "../data/favorite";
+
 
 const FavoriteItem = (props) => {
-  const { id, title, img, prodUrl, keyword, description } = props.item;
+  const { id, title, img, keyword } = props.item;
   return (
     <div className={`${classes.favorite__item}`}>
       <div className="bg-transparent">
