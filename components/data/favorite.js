@@ -88,7 +88,7 @@ const favorite = [
     id: 8,
     title: "Iphone 8",
     stock:99,
-    img: "/images/iPhone8.jpg",
+    img: "/images/Iphone8.jpg",
     category: "Limited Edition",
     keyword: ["64 GB"],
     price: 1444444 ,
@@ -97,7 +97,7 @@ const favorite = [
   },
   {
     id: 9,
-    title: "Ihone-7",
+    title: "iPhone-7",
     stock:99,
     img: "/images/iPhone8.jpg",
     category: "Limited Edition",

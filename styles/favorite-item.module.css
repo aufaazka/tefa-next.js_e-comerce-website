@@ -42,11 +42,6 @@
   border-radius: 5px;
 }
 
-/* .favorite__live_url {
-  margin-left: -100px;
-  margin-top: 30px;
-  display: none;
-} */
 .favorite__live_url {
   padding: 0 10px 5px 10px;
   width: 100%;
@@ -58,9 +53,7 @@
   display: inline-block;
 }
 
-.belanja__item:hover .primary_btn {
-  
-}
+
 
 .favorite__item:hover .favorite__live_url {
   margin-left: 0;
