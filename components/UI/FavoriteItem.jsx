@@ -2,10 +2,10 @@ import React from "react";
 import classes from "../../styles/favorite-item.module.css";
 import Image from "next/image";
 import Link from "next/link";
-
+import favorite from "../data/favorite";
 
 const FavoriteItem = (props) => {
-  const { title, img, prodUrl, keyword, description } = props.item;
+  const { id, title, img, prodUrl, keyword, description } = props.item;
   return (
     <div className={`${classes.favorite__item}`}>
       <div className="bg-transparent">
@@ -23,7 +23,7 @@ const FavoriteItem = (props) => {
      
       <div className= {`${classes.favorite__live_url} bg-transparent`}>
         <button className="primary__btn_url">
-          <Link href={prodUrl}>Detail Product</Link>
+          <Link href={`/${id}`}>Detail Product</Link>
         </button>
       </div>
   

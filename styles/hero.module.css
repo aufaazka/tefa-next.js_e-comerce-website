@@ -13,7 +13,7 @@
 .hero__img {
   position: relative;
   z-index: 9;
- 
+ margin-left: 280px;
 }
 
 .hero__img img {
@@ -28,6 +28,11 @@
 
   .hero__content h5 {
     font-size: 1.1rem !important;
+  }
+
+  .hero__img {
+    position: relative;
+    z-index: 9;
   }
 
   .hero__img img {
