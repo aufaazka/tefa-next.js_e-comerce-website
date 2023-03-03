@@ -97,7 +97,7 @@ const favorite = [
   },
   {
     id: 9,
-    title: "iPhone-7",
+    title: "iPhone-7.jpg",
     stock:99,
     img: "/images/iPhone8.jpg",
     category: "Limited Edition",
