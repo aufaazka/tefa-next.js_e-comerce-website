@@ -3,6 +3,10 @@
   padding: 30px 20px 20px 14px;
   border-radius: 10px;
   margin-bottom: 30px;
+  overflow: hidden;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+  transform: translate(0, 0);
+  transition:.3s;
 }
 .favorite__item:hover {
   transform: translate(0, -9px);
@@ -38,15 +42,30 @@
   border-radius: 5px;
 }
 
-.favorite__live_url {
+/* .favorite__live_url {
   margin-left: -100px;
   margin-top: 30px;
   display: none;
+} */
+.favorite__live_url {
+  padding: 0 10px 5px 10px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  transform: translate(0, 110px);
+  line-height: 25px;
+  transition: 0.4s ease;
+  display: inline-block;
+}
+
+.belanja__item:hover .primary_btn {
+  
 }
 
 .favorite__item:hover .favorite__live_url {
   margin-left: 0;
   display: block;
+  transform: translate(0,10px);
 }
 
 

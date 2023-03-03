@@ -42,17 +42,13 @@ const Favorite = () => {
           <Col lg="6" md="6">
             <div className={`${classes.tab__btns} text-end`}>
               <button
-                className={` ${
-                  filter === "New Product" ? active : ""
-                } secondary__btn text-black`}
+                className={` ${filter === "New Product" ? active : ""} secondary__btn text-white`}
                 onClick={() => setFilter("New Product")}
               >
                 New Product
               </button>
               <button
-                className={`${
-                  filter === "Limited Edition" ? active : ""
-                } secondary__btn text-black`}
+                className={`${filter === "Limited Edition" ? active : ""} secondary__btn text-white`}
                 onClick={() => setFilter("Limited Edition")}
               >
                 Limited Edition
