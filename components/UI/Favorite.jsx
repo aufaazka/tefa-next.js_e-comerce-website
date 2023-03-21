@@ -3,12 +3,31 @@ import { Container, Row, Col } from "reactstrap";
 import SectionSubtitle from "./SectionSubtitle";
 import classes from "../../styles/favorite.module.css";
 import FavoriteItem from "./FavoriteItem";
+const url = "../data/favorite.json";
 
-import favoriteData from "../data/favorite";
+
 
 const Favorite = () => {
   const [filter, setFilter] = useState("New Product");
+  const [favoriteData, setFavoriteData] = useState([]);
   const [data, setData] = useState();
+
+
+  useEffect(() => {
+    async function getData() {
+      try {
+        const response = await fetch(
+          "https://api.jsonbin.io/v3/b/6412d58bebd26539d08f8449"
+        );
+        const data = await response.json();
+        setFavoriteData(data.record);
+      } catch (err) {
+        console.log(err);
+      }
+    }
+    getData();
+  }, []);
+
 
   useEffect(() => {
     if (filter === "New Product") {
